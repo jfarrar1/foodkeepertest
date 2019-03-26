@@ -1,1 +1,1 @@
-web: javac foodkeepertest/src/main/java/com/github/LibreFoodPantry/FoodKeeperAPI/App.java; java foodkeepertest/src/main/java/com/github/LibreFoodPantry/FoodKeeperAPI/App -Dserver.port=$PORT $JAVA_OPTS
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/gs-rest-service-0.1.0.jar

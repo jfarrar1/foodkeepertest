@@ -1,1 +1,1 @@
-web: gradlew.bat bootRun
+web: javac foodkeepertest/src/main/java/com/github/LibreFoodPantry/FoodKeeperAPI/App.java; java foodkeepertest/src/main/java/com/github/LibreFoodPantry/FoodKeeperAPI/App -Dserver.port=$PORT $JAVA_OPTS

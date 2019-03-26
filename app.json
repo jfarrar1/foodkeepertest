@@ -1,0 +1,4 @@
+{
+  "name": "FoodKeeper API",
+  "description": "Contains code to convert (using GSON) locally stored food pantry json file to java objects representing the data found within the file.",
+}
